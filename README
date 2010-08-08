@@ -3,24 +3,25 @@ xditview
 X.Org ditroff output viewer
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libX11_6-1.1.5-1
-  libXaw7-1.0.4-2
-  libXmu6-1.0.4-1
-  libXt6-1.0.5-1
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  libX11_6-1.3.4-1
+  libXaw7-1.0.7-1
+  libXmu6-1.0.5-1
+  libXt6-1.0.8-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-2
-  binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  pkg-config-0.23a-2
-  sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
+  binutils-2.20.51-2
+  cygport-0.9.88-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.2.1-1
+  xorg-util-macros-1.10.0-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -31,32 +32,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xditview-1.0.1-X-src.tar.bz2
+  unpack xditview-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xditview-1.0.1-X.cygport all
+  cygport ./xditview-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/xditview-1.0.1-X-src.tar.bz2
-  /usr/src/xditview-1.0.1-X.tar.bz2
+  /usr/src/xditview-1.0.2-X-src.tar.bz2
+  /usr/src/xditview-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/X11/app-defaults/Xditview
-  /etc/X11/app-defaults/Xditview-chrtr
-  /usr/bin/xditview.exe
-  /usr/include/X11/bitmaps/ldblarrow
-  /usr/include/X11/bitmaps/rdblarrow
-  /usr/share/doc/xditview-1.0.1/COPYING
-  /usr/share/doc/xditview-1.0.1/ChangeLog
-  /usr/share/man/man1/xditview.1.gz
-
-------------------
-
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-2 -----
 Rebuilt.
