@@ -1,0 +1,11 @@
+inherit xorg
+
+NAME="xditview"
+VERSION=1.0.3
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X ditroff output viewer"
+DESCRIPTION="The xditview program displays ditroff output on an X display. It
+uses no special metrics and automatically converts the printer coordinates
+into screen coordinates; using the user-specified screen resolution, rather
+than the actual resolution so that the appropriate fonts can be found."
